@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="stringCounter">
+        <h2>Count Vowels and Consonants</h2>
+        <input type="text" id="stringInput" placeholder="Enter a string">
+        <button onclick="countVowelsAndConsonants()">Count</button>
+        <p id="stringCountResult"></p>
+    </div>
+
+    <div id="palindromeChecker">
+        <h2>Check Palindrome</h2>
+        <input type="text" id="numberInput" placeholder="Enter numbers">
+        <button onclick="checkPalindrome()">Check</button>
+        <p id="palindromeResult"></p>
+    </div>
+
+    <div id="tipCalculator">
+        <h2>Tip Calculator</h2>
+        <input type="number" id="subtotalInput" placeholder="Subtotal">
+        <input type="number" id="tipPercentageInput" placeholder="Tip Percentage">
+        <button onclick="calculateTotal()">Calculate</button>
+        <p id="totalResult"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
